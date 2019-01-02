@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="InputPseudo" prefHeight="351.0" prefWidth="485.0" stylesheets="@css1.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FactoryInterfaceController">
+    <children>
+        <Button fx:id="jouuer" layoutX="152.0" layoutY="199.0" onAction="#jouer" prefHeight="50.0" prefWidth="181.0" text="JOUER" textFill="#2b0ed0">
+         <effect>
+            <GaussianBlur radius="1.75" />
+         </effect></Button>
+        <Label layoutX="195.0" layoutY="288.0" minHeight="16" minWidth="69" prefHeight="33.0" prefWidth="199.0" textFill="#da0a0a" />
+      <TextField fx:id="pseudo" layoutX="135.0" layoutY="116.0" prefHeight="50.0" prefWidth="215.0" />
+      <Label layoutX="117.0" layoutY="34.0" prefHeight="71.0" prefWidth="252.0" text="   Entrez votre pseudo" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#49158df5" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="result" layoutX="104.0" layoutY="269.0" prefHeight="71.0" prefWidth="297.0" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#49158df5" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+    </children>
+</AnchorPane>
