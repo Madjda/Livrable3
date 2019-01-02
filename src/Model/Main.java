@@ -12,6 +12,12 @@ public class Main extends Application {
 	@FXML
 	 static  AnchorPane Layout;
 	static Stage primaryStage ;
+	public static int nbMotMax =10;
+	public static int nbMotRatéMax=6 ;
+	public static int nbMotRaté=0;
+	public static int nbMotCorrect=0;
+	
+	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
