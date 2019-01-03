@@ -16,7 +16,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			FXMLLoader loader = new FXMLLoader ();
-			loader.setLocation(Main.class.getResource("../View/FactoryInterface.fxml"));
+			loader.setLocation(Main.class.getResource("../View/CasesInterface.fxml"));
 	        Layout = loader.load();
 			Scene scene = new Scene(Layout);
 			primaryStage.setScene(scene);
@@ -28,13 +28,7 @@ public class Main extends Application {
 	
 	public static void main(String[] args) {
 		launch(args);
-		CaseFactory factory = CaseFactory.instance();
-		factory.getCase('c', "MultiCase");
-		factory.getCase('b', "MultiCase");
-		factory.getCase('a', "ZeroCase");
-		factory.getCase('a', "ZeroCase");
-		factory.getCase('a', "ProposCase");
-		factory.getCase('a', "MultiCase");
+		
 
 	}
 }

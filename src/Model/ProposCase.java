@@ -59,9 +59,10 @@ public class ProposCase implements Case{
 	public void SetLetter(char c) {
 		// TODO Auto-generated method stub
 		this.letter = c;
+		this.GenerateChoices();
 		
 	}
-
+    
 	
 	public boolean LostWord() {
 		// TODO Auto-generated method stub

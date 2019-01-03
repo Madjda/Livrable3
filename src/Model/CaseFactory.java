@@ -28,7 +28,7 @@ public class CaseFactory {
 				for (Case cas : casesArray) {
 					if(cas.getClass().getSimpleName().equals(type)){
 						cas.SetLetter(character);
-						System.out.println("I returned an instance of "+ type+" with a char =="+cas.GetLetter());
+						System.out.println("I returned an instance of "+type);
 						return cas;
 					}
 			    }

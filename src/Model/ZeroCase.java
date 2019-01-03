@@ -36,7 +36,6 @@ public class ZeroCase implements Case {
 
 
 	public boolean LostWord() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
