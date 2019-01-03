@@ -35,7 +35,6 @@ public class FactoryInterfaceController {
     joueur.setPseudo(pseudoJoueur);
     result.setText("Joueur crée avec succés");
     
-    
     }
 
 }

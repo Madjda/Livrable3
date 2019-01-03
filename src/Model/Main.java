@@ -28,5 +28,13 @@ public class Main extends Application {
 	
 	public static void main(String[] args) {
 		launch(args);
+		CaseFactory factory = CaseFactory.instance();
+		factory.getCase('c', "MultiCase");
+		factory.getCase('b', "MultiCase");
+		factory.getCase('a', "ZeroCase");
+		factory.getCase('a', "ZeroCase");
+		factory.getCase('a', "ProposCase");
+		factory.getCase('a', "MultiCase");
+
 	}
 }
