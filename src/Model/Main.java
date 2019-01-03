@@ -22,7 +22,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			FXMLLoader loader = new FXMLLoader ();
-			loader.setLocation(Main.class.getResource("../View/FactoryInterface.fxml"));
+			loader.setLocation(Main.class.getResource("../View/CasesInterface.fxml"));
 	        Layout = loader.load();
 			Scene scene = new Scene(Layout);
 			primaryStage.setScene(scene);
@@ -34,5 +34,7 @@ public class Main extends Application {
 	
 	public static void main(String[] args) {
 		launch(args);
+		
+
 	}
 }
